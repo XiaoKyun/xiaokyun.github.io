@@ -1,109 +1,110 @@
- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
- <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<title>@XiaoKyun - https://twitter.com/XiaoKyun</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-	<meta name="keywords" value="@XiaoKyun,XiaoKyun,Kyun,没脚的小鸟" />
-	<meta name="description" content="https://twitter.com/XiaoKyun" />
-	<meta name="google-site-verification" content="0BTvZv5qI0XuKPKdO1CDiuzT73DMM_fLo4VyAkED9Ss" />
-	<link rel="shortcut icon" href="/statics/xiaokyun.png">
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
-	<base target="_blank">
-	<style type="text/css">
-body {
-	background-color: #fff;
-	color: #666;
-	margin: 0;
-	text-align: left;
-	font-family: Verdana,Tahoma,Helvetica,Arial,sans-serif;
-	line-height: 1.6em;
-	voice-family: "\"}\"";
-	voice-family: inherit;
-	font-size: small;
-} html>body { font-size: small; }
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@XiaoKyun - https://twitter.com/XiaoKyun</title>
+        <meta name="keywords" value="@XiaoKyun,XiaoKyun,没脚的小鸟" />
+        <meta name="description" content="https://twitter.com/XiaoKyun" />
+        <meta name="google-site-verification" content="0BTvZv5qI0XuKPKdO1CDiuzT73DMM_fLo4VyAkED9Ss" />
+        <link rel="shortcut icon" href="/statics/xiaokyun.png">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+        <base target="_blank">
+        <style type="text/css">
+        body {
+            background-color: #fff;
+            color: #666;
+            margin: 0;
+            text-align: left;
+            font-family: Helvetica, Arial, Tahoma, Verdana, sans-serif;
+            line-height: 1.6em;
+            font-size: small;
+        }
 
-h1,h2,h3,h4,h5,h6 {
-	font-family: Georgia,"Palatino Linotype",Palatino,"Book Antiqua","Times New Roman",Times,serif;
-}
+        html>body {
+            font-size: small;
+        }
 
-h1,h2,h3 {
-	font-weight: normal;
-}
+        h1,
+        h2,
+        h3 {
+            font-weight: normal;
+        }
 
-/* Front page specific styles ----------------------- */
+        a {
+            text-decoration: none;
+        }
 
-#front #container {
-	margin: 50px;
-	width: 75%;
-}
+        #front #container {
+            margin: 50px;
+            width: 75%;
+        }
 
-#front h2 {
-	font-size: 400%;
-	color: #333;
-	line-height: 1.3em;
-	margin: 60px 0 20px 0;
-}
+        #front h2 {
+            font-size: 400%;
+            color: #333;
+            line-height: 1.3em;
+            margin: 60px 0 20px 0;
+        }
 
-#front h2 a,#front h2 em {
-	color: #000;
-	text-decoration: none;
-	background-color: #ff6;
-	font-style: normal;
-}
+        #front h2 a,
+        #front h2 em {
+            color: #000;
+            text-decoration: none;
+            background-color: #ff6;
+            font-style: normal;
+            padding: 0 7px;
+            border-radius: 7px;
+        }
 
-#front h3 {
-	font-size: 200%;
-	margin: 1.5em 0;
-	font-style: italic;
-}
+        #front h3 {
+            font-size: 200%;
+            margin: 1.5em 0;
+            font-style: italic;
+            display: none;
+        }
 
-#front h3 a {
-	color: #333;
-}
+        #front h3 a {
+            color: #333;
+        }
 
-#front h3 a:hover {
-	color: #111;
-}
+        #front h3 a:hover {
+            color: #111;
+        }
 
-/*.soon {
-	font-size: 85%;
-	text-transform: uppercase;
-	letter-spacing: .1em;
-	color: #900;
-}*/
+        .soon {
+            font-size: 85%;
+            text-transform: uppercase;
+            letter-spacing: .1em;
+            color: #900;
+        }
 
-.soon {
-	color: #900;
-}
+        a img {
+            border-width: 0;
+        }
+        </style>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            var jsstyles = document.createElement("style")
+            jsstyles.type = "text/css"
+            jsstyles.appendChild(document.createTextNode("#front h2 a:hover { margin-left: 0; } /* Overriding defaults */"))
+            document.getElementsByTagName("head")[0].appendChild(jsstyles)
 
-a img {
-	border-width: 0;
-}
-    </style>
-	<script type="text/javascript">
-	$(document).ready(function(){
-	var jsstyles = document.createElement("style")
-	jsstyles.type = "text/css"
-	jsstyles.appendChild(document.createTextNode("#front h2 a:hover { margin-left: 0; } /* Overriding defaults */"))
-	document.getElementsByTagName("head")[0].appendChild(jsstyles)
-
-	$("#front h2 a").each(function(i){
-		$(this).hover(
-			function(){ $(this).animate({ marginLeft: "0.7em" }, 150) },		
-			function(){ $(this).animate({ marginLeft: "0" }, 150) }
-		)
-	})
-})
-  </script>
-</head>
-
-<body id="front">
- <div id="container">
-  <h1 id="logo" title="@XiaoKyun"><img src="/statics/xiaokyun.jpg" /></h1>
-  <h2>Hello! I&#8217;m @XiaoKyun, find me at <a href="https://twitter.com/XiaoKyun">Twitter</a>, <a href="https://www.facebook.com/xiaokyun">Facebook</a>, <a href="https://plus.google.com/117809678643862633267">Google+</a>, <a href="https://www.linkedin.com/in/xiaokyun">Linkedin</a>, <a href="http://t.qq.com/XiaoKyun">QQ</a>, and <a href="http://weibo.com/1967160575">Weibo</a>.</h2>
-
-  <h3>Listed blogs are OpenID only: <a href="http://xiaokyun.blogspot.com/">Blogger</a>, <a href="https://xiaokyun.wordpress.com/">WP</a>, <a href="http://xiaokyun.tumblr.com/">Tumblr</a>, <a href="http://xiaokyun.posterous.com/">Posterous</a>.</h3>
-  <p class="soon">© 2012 Powered by <a href="https://github.com/">GitHub Pages</a> & Themed by <a href="https://twitter.com/XiaoKyun">@XiaoKyun</a></p>
- </div>
-</body>
+            $("#front h2 a").each(function(i){
+                $(this).hover(
+                    function(){ $(this).animate({ marginLeft: "0.7em" }, 150) },
+                    function(){ $(this).animate({ marginLeft: "0" }, 150) }
+                )
+            })
+        })
+        </script>
+    </head>
+    <body id="front">
+        <div id="container">
+            <h1 id="logo" title="@XiaoKyun"><img src="/statics/xiaokyun.jpg" /></h1>
+            <h2>Hello! I&#8217;m @XiaoKyun, find me with <a href="https://twitter.com/XiaoKyun">Twitter</a>, <a href="https://www.facebook.com/xiaokyun">Facebook</a>, <a href="https://plus.google.com/117809678643862633267">Google+</a>, <a href="https://github.com/XiaoKyun">Github</a>, <a href="https://www.instagram.com/xiaokyun/">Instagram</a>, <a href="https://www.linkedin.com/in/xiaokyun">Linkedin</a>, <a href="https://t.me/xiaokyun">Telegram</a>, <a href="wechat:XiaoKyun">Wechat</a>, <a href="QQ:XiaoKyun">QQ</a>, <a href="http://weibo.com/1967160575">Weibo</a>.</h2>
+            <h3>Blogs: <a href="http://xiaokyun.blogspot.com/">Blogger</a>, <a href="https://xiaokyun.wordpress.com/">WP</a>, <a href="http://xiaokyun.tumblr.com/">Tumblr</a>.</h3>
+            <p class="soon">© 2018 Powered by <a href="https://github.com/">GitHub Pages</a> & Themed by <a href="https://twitter.com/XiaoKyun">@XiaoKyun</a></p>
+        </div>
+    </body>
 </html>
